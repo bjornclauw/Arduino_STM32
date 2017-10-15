@@ -106,12 +106,12 @@ extern const uint8 boardADCPins[BOARD_NR_ADC_PINS] __FLASH__ = {
 };
 
 // Note. These defines are not really used by generic boards. They are for  Maple Serial USB
-#define USB_DP PA12
-#define USB_DM PA11
+//#define USB_DP PA12
+//#define USB_DM PA11
 
 // NOte. These definitions are not really used for generic boards, they only relate to boards modified to behave like Maple boards
 extern const uint8 boardUsedPins[BOARD_NR_USED_PINS] __FLASH__ = {
-     USB_DP, USB_DM
+  //   USB_DP, USB_DM
 };
 
 
